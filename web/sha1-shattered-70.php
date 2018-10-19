@@ -19,12 +19,13 @@
 if (isset($_GET['name']) and isset($_GET['password'])) {
     $name = $_GET['name'];
     $password = $_GET['password'];
-    if($name == $password) {
-        echo 'Password tidak boleh sama dengan nama';
-    }
-    else if (sha1($name) === sha1($password)) {
-      die('Flag: Mantul Gan!');
-    }
+	
+	if($name == $password) {
+		echo 'Password tidak boleh sama dengan nama';
+	}
+	else if (sha1($name) === sha1($password)) {
+		die('Flag: Mantul Gan!');
+	}
 	else {
 		print 'Password salah!';
 	}

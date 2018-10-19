@@ -14,7 +14,7 @@
 
 <?php 
 if (isset($_POST['md5'])) { 
-	system("echo \"<b>MD5 :</b> \";echo -n \"".$_POST['md5']."\" | md5sum");
+	system("echo \"<b>MD5 :</b> \";echo -n ".$_POST['md5']." | md5sum");
 }
 ?>
 </center>

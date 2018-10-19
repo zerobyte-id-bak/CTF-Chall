@@ -5,7 +5,7 @@ error_reporting(0);
 $page = $_GET['page'];
 if(isset($page))
     {
-    	if(preg_match('/^\//', $_GET['link'])) {
+    	if(preg_match('/^\//', $page)) {
     		echo "Hacking detected!";
     	}
     	else if(preg_match('/resource\=\//', $page)) {

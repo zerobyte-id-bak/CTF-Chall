@@ -20,6 +20,7 @@ int main()
 	if (pa + ss == pwd)
 	{
 		int i;
+		// FLAGNYA DISINI
 		char str[100] = "iodjwhutxdfnmhurelwfwi";
 		// iodjwhutxdfnmhurelwfwi = flagterquackjerobitctf (Encrypted with Caesar Cipher +3)
 

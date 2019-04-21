@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /*
-* BasicMath-75.c
+* BasicMath-80.c
 * - pa = 18992
 * - ss = 12345
 * => pa + ss = 31337
 * 
 * Compile:
-* # gcc BasicMath-75.c -o basicmath
+* # gcc BasicMath-80.c -o basicmath
 */
 
 int main()
@@ -31,7 +31,7 @@ int main()
 			printf("FLAG: %s\n", str);
 	}
 	else {
-		printf("FALSE!");
+		printf("FALSE!\n");
 	}
 	return 0;
 }

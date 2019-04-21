@@ -1,12 +1,18 @@
 #include <stdio.h>
 #include <string.h>
+
+/*
 # EasyString-60.c (Reverse Engineering)
 #
-# Terdapat variable "flag1", "flag2", "flag3", dan "flag4" dengan tipe data char, variable ini kalian bisa isi sesuai format flag kalian dan pecah flag sesuai urutannya. Untuk sedikit mengecoh saat menggunakan command string
+# Terdapat variable "flag1", "flag2", "flag3", dan "flag4" dengan tipe data char
+# variable flag tersebut bisa kalian isi sesuai format flag kalian dan pecah flag sesuai urutannya.
+# Untuk sedikit mengecoh saat menggunakan command string
+#
 # Terdapat variable "stringkey" itu adalah key yang harus input saat program dijalankan
 # 
 # Compile:
 # $ gcc EasyString-60.c -o easystring
+*/
 
 int main()
 {
